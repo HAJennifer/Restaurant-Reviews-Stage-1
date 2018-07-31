@@ -17,3 +17,10 @@ This repository uses leafletjs with Mapbox. You need to replace <your MAPBOX API
 
 # Note about ES6
 Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write.
+# How to use:
+Download the repository: click download ZIP on the right of the screen and extract the zip file to your computer or clone the repository using Git.
+To set up your server with Python In a terminal, check the version of Python you have: python -v
+If you have Python 2.x, spin up the server with python -m SimpleHTTPServer 8000
+This project uses port 8000.
+For Python 3.x, you can use python3 -m http.server 80 or py -m http.server 8000
+With your server running, visit the site: http://localhost:8000
